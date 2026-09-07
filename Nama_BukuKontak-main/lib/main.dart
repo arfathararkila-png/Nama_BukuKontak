@@ -37,13 +37,18 @@ class _BerandaPageState extends State<BerandaPage> {
   final List<Kontak> _daftarKontak = [];
   
   // Data diri Mu ditambahkan ke dalam daftar favorit
-  final List<Kontak> _daftarFavorit = [
-    Kontak(
-      nama: "Arfath Yoan Ndaru",
-      email: "arfathararkila@gmail.com",
-      noHp: "088902813477",
-    ),
-  ];
+ final List<Kontak> _daftarFavorit = [
+  Kontak(
+    nama: "Arfath Yoan Ndaru",
+    email: "arfathararkila@gmail.com",
+    noHp: "088902813477",
+  ),
+  Kontak(
+    nama: "Aldo Felicia Pratama",
+    email: "aldofeliciapratama1000@gmail.com",
+    noHp: "088903513897",
+  ),
+];
 
   void _navigasiKeTambahKontak() async {
     final Kontak? kontakBaru = await Navigator.push(
